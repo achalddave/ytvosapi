@@ -6,17 +6,17 @@ import numpy as np
 
 ext_modules = [
     Extension(
-        'pycocotools._mask',
-        sources=['../common/maskApi.c', 'pycocotools/_mask.pyx'],
+        'ytvostools._mask',
+        sources=['../common/maskApi.c', 'ytvostools/_mask.pyx'],
         include_dirs = [np.get_include(), '../common'],
         extra_compile_args=['-Wno-cpp', '-Wno-unused-function', '-std=c99'],
     )
 ]
 
 setup(
-    name='pycocotools',
-    packages=['pycocotools'],
-    package_dir = {'pycocotools': 'pycocotools'},
+    name='ytvostools',
+    packages=['ytvostools'],
+    package_dir = {'ytvostools': 'ytvostools'},
     install_requires=[
         'setuptools>=18.0',
         'cython>=0.27.3',

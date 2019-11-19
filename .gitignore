@@ -8,9 +8,9 @@ MatlabAPI/analyze*/
 MatlabAPI/visualize*/
 MatlabAPI/private/maskApiMex.*
 
-PythonAPI/pycocotools/__init__.pyc
-PythonAPI/pycocotools/_mask.c
-PythonAPI/pycocotools/_mask.so
-PythonAPI/pycocotools/coco.pyc
-PythonAPI/pycocotools/cocoeval.pyc
-PythonAPI/pycocotools/mask.pyc
+PythonAPI/ytvostools/__init__.pyc
+PythonAPI/ytvostools/_mask.c
+PythonAPI/ytvostools/_mask.so
+PythonAPI/ytvostools/coco.pyc
+PythonAPI/ytvostools/cocoeval.pyc
+PythonAPI/ytvostools/mask.pyc
